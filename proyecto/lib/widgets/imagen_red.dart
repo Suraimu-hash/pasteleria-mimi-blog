@@ -28,6 +28,7 @@ class ImagenRed extends StatelessWidget {
     if (url.isEmpty) return respaldo;
     return Image.network(
       url,
+      webHtmlElementStrategy: WebHtmlElementStrategy.prefer,
       height: alto,
       width: ancho ?? double.infinity,
       fit: BoxFit.cover,

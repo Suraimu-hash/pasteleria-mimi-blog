@@ -41,6 +41,7 @@ class PostCard extends StatelessWidget {
             else
               Image.network(
                 post.imagen,
+                webHtmlElementStrategy: WebHtmlElementStrategy.prefer,
                 height: 170,
                 width: double.infinity,
                 fit: BoxFit.cover,

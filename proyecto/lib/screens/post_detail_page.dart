@@ -415,6 +415,7 @@ class _PostDetailPageState extends State<PostDetailPage> {
 
     return Image.network(
       post.imagen,
+      webHtmlElementStrategy: WebHtmlElementStrategy.prefer,
       height: 230,
       width: double.infinity,
       fit: BoxFit.cover,
