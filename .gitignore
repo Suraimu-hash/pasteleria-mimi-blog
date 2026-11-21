@@ -1,0 +1,24 @@
+# Secretos
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Flutter / Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE / sistema
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+android/local.properties
