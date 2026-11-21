@@ -1,10 +1,4 @@
--- =====================================================================
---  Pastelería Mimi · Blog de pasteles
---  Modelo de base de datos (MySQL 8)
---  Uso:  mysql -u root -p < bd.sql
---  ATENCIÓN: borra y vuelve a crear las tablas (útil en desarrollo).
---  Después ejecuta  python seed.py  para cargar usuarios y pasteles de ejemplo.
--- =====================================================================
+
 
 CREATE DATABASE IF NOT EXISTS bd_aplicacion_movil
   CHARACTER SET utf8mb4
